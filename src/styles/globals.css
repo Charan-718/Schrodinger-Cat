@@ -1,0 +1,275 @@
+/* ============================================================
+   ARP QUANTUM BUSINESS TECH — DESIGN SYSTEM
+   Golden Ratio Typography Scale (×1.618)
+   60|30|10 Color Rule Applied
+   Light & Dark Mode with CSS Variables
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Space+Mono:wght@400;700&display=swap');
+
+/* ── Token Layer ────────────────────────────────────────────── */
+:root {
+  /* Brand palette */
+  --clr-primary:       #9333ea;
+  --clr-secondary:     #f0d8fc;
+  --clr-dark-bg:       #f3e8ff;
+  --clr-dark:          #6f6470;
+  --clr-light:         #1f2021;
+  --clr-light-1:       #768386;
+  --clr-light-2:       #b5deda;
+  --clr-dark-1:        #003049;
+
+  /* Derived / semantic tokens — LIGHT MODE (default) */
+  /* 60 % dominant */
+  --bg-canvas:         #faf8fc;
+  --bg-surface:        #ffffff;
+  --bg-raised:         var(--clr-dark-bg);      /* #f3e8ff */
+
+  /* 30 % secondary */
+  --fg-base:           var(--clr-light);        /* #1f2021  */
+  --fg-muted:          var(--clr-dark);         /* #6f6470  */
+  --fg-subtle:         var(--clr-light-1);      /* #768386  */
+  --border-subtle:     #e4d9f0;
+  --border-strong:     #c9a8e8;
+
+  /* 10 % accent */
+  --accent-primary:    var(--clr-primary);      /* #9333ea  */
+  --accent-secondary:  var(--clr-secondary);    /* #f0d8fc  */
+  --accent-teal:       var(--clr-light-2);      /* #b5deda  */
+  --accent-navy:       var(--clr-dark-1);       /* #003049  */
+
+  /* Glow / overlay */
+  --glow-primary:      rgba(147, 51, 234, 0.22);
+  --glow-teal:         rgba(181, 222, 218, 0.35);
+  --overlay-glass:     rgba(255, 255, 255, 0.55);
+  --overlay-frosted:   rgba(240, 216, 252, 0.45);
+
+  /* ── Golden Ratio Typography Scale ──────────────────────────
+     Base: 16px  |  Ratio: 1.618
+     xs   = 16 ÷ 1.618²  ≈  6.1px   → 0.382rem
+     sm   = 16 ÷ 1.618   ≈  9.9px   → 0.618rem
+     base = 16px                     → 1rem
+     md   = 16 × 1.618   ≈ 25.9px   → 1.618rem
+     lg   = 16 × 1.618²  ≈ 41.9px   → 2.618rem
+     xl   = 16 × 1.618³  ≈ 67.8px   → 4.236rem
+     2xl  = 16 × 1.618⁴  ≈109.7px   → 6.854rem
+  ─────────────────────────────────────────────────────────── */
+  --text-xs:    0.382rem;
+  --text-sm:    0.618rem;
+  --text-base:  1rem;
+  --text-md:    1.618rem;
+  --text-lg:    2.618rem;
+  --text-xl:    4.236rem;
+  --text-2xl:   6.854rem;
+
+  /* Line heights (golden) */
+  --lh-tight:   1.236;
+  --lh-base:    1.618;
+  --lh-loose:   2.0;
+
+  /* Letter spacing */
+  --ls-tight:  -0.03em;
+  --ls-normal:  0em;
+  --ls-wide:    0.08em;
+  --ls-wider:   0.15em;
+  --ls-widest:  0.25em;
+
+  /* Font families */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'Space Mono', monospace;
+
+  /* Spacing (golden ratio base-8) */
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
+  --space-48: 12rem;
+
+  /* Radii */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+  --radius-pill:9999px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(147,51,234,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-md:  0 4px 16px rgba(147,51,234,0.12), 0 2px 6px rgba(0,0,0,0.08);
+  --shadow-lg:  0 12px 40px rgba(147,51,234,0.18), 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-glow:0 0 40px var(--glow-primary);
+
+  /* Transitions */
+  --ease-out-expo: cubic-bezier(0.16,1,0.3,1);
+  --ease-in-expo:  cubic-bezier(0.7,0,0.84,0);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+
+  /* Z-index scale */
+  --z-below: -1;
+  --z-base:   0;
+  --z-above:  10;
+  --z-nav:    100;
+  --z-modal:  200;
+  --z-toast:  300;
+}
+
+/* ── Dark Mode Overrides ──────────────────────────────────── */
+[data-theme="dark"] {
+  /* 60 % dominant */
+  --bg-canvas:     #0d0910;
+  --bg-surface:    #14101a;
+  --bg-raised:     #1c1523;
+
+  /* 30 % secondary */
+  --fg-base:       #f0e8fb;
+  --fg-muted:      #b8a8c8;
+  --fg-subtle:     #7a6e88;
+  --border-subtle: #2a1f38;
+  --border-strong: #4a2e70;
+
+  /* 10 % accent (same brand) */
+  --accent-primary:   var(--clr-primary);
+  --accent-secondary: #2d1a45;
+  --accent-teal:      #4d9c96;
+  --accent-navy:      #a8d4e0;
+
+  --glow-primary:   rgba(147, 51, 234, 0.35);
+  --glow-teal:      rgba(77, 156, 150, 0.25);
+  --overlay-glass:  rgba(20, 10, 30, 0.65);
+  --overlay-frosted:rgba(147, 51, 234, 0.08);
+
+  --shadow-sm:   0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md:   0 4px 16px rgba(0,0,0,0.5), 0 0 0 1px rgba(147,51,234,0.1);
+  --shadow-lg:   0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(147,51,234,0.15);
+  --shadow-glow: 0 0 60px var(--glow-primary);
+}
+
+/* ── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+  color: var(--fg-base);
+  background-color: var(--bg-canvas);
+  transition: background-color var(--duration-base) var(--ease-out-expo),
+              color var(--duration-base) var(--ease-out-expo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ── Utility Classes ──────────────────────────────────────── */
+.container {
+  width: 100%;
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* Quantum grid noise texture overlay */
+.quantum-noise::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: var(--z-above);
+  opacity: 0.035;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-canvas); }
+::-webkit-scrollbar-thumb {
+  background: var(--accent-primary);
+  border-radius: var(--radius-pill);
+  opacity: 0.6;
+}
+
+/* Selection */
+::selection {
+  background: var(--glow-primary);
+  color: var(--fg-base);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ── Animation Keyframes ──────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px var(--glow-primary); }
+  50%       { box-shadow: 0 0 50px var(--glow-primary), 0 0 80px var(--glow-teal); }
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(60px) rotate(-360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+@keyframes scan-line {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* ── Responsive breakpoints ───────────────────────────────── */
+@media (max-width: 768px) {
+  :root {
+    --text-xl:  3rem;
+    --text-2xl: 4.5rem;
+  }
+}

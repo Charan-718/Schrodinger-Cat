@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { ThemeProvider } from './context/ThemeContext';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import IdeView from './components/ide/IdeView';
+import './styles/globals.css';
 
 function App() {
+  const [isCodeMode, setIsCodeMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <Navbar isCodeMode={isCodeMode} onToggleCodeMode={() => setIsCodeMode(!isCodeMode)} />
+      {isCodeMode ? <IdeView /> : <HeroSection />}
+    </ThemeProvider>
   );
 }
 

@@ -1,0 +1,510 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+<defs>
+  <clipPath id="clip0">
+    <rect x="0" y="0" width="2" height="400" />
+    <rect x="10" y="0" width="2" height="400" />
+    <rect x="20" y="0" width="2" height="400" />
+    <rect x="30" y="0" width="2" height="400" />
+    <rect x="40" y="0" width="2" height="400" />
+    <rect x="50" y="0" width="2" height="400" />
+    <rect x="60" y="0" width="2" height="400" />
+    <rect x="70" y="0" width="2" height="400" />
+    <rect x="80" y="0" width="2" height="400" />
+    <rect x="90" y="0" width="2" height="400" />
+    <rect x="100" y="0" width="2" height="400" />
+    <rect x="110" y="0" width="2" height="400" />
+    <rect x="120" y="0" width="2" height="400" />
+    <rect x="130" y="0" width="2" height="400" />
+    <rect x="140" y="0" width="2" height="400" />
+    <rect x="150" y="0" width="2" height="400" />
+    <rect x="160" y="0" width="2" height="400" />
+    <rect x="170" y="0" width="2" height="400" />
+    <rect x="180" y="0" width="2" height="400" />
+    <rect x="190" y="0" width="2" height="400" />
+    <rect x="200" y="0" width="2" height="400" />
+    <rect x="210" y="0" width="2" height="400" />
+    <rect x="220" y="0" width="2" height="400" />
+    <rect x="230" y="0" width="2" height="400" />
+    <rect x="240" y="0" width="2" height="400" />
+    <rect x="250" y="0" width="2" height="400" />
+    <rect x="260" y="0" width="2" height="400" />
+    <rect x="270" y="0" width="2" height="400" />
+    <rect x="280" y="0" width="2" height="400" />
+    <rect x="290" y="0" width="2" height="400" />
+    <rect x="300" y="0" width="2" height="400" />
+    <rect x="310" y="0" width="2" height="400" />
+    <rect x="320" y="0" width="2" height="400" />
+    <rect x="330" y="0" width="2" height="400" />
+    <rect x="340" y="0" width="2" height="400" />
+    <rect x="350" y="0" width="2" height="400" />
+    <rect x="360" y="0" width="2" height="400" />
+    <rect x="370" y="0" width="2" height="400" />
+    <rect x="380" y="0" width="2" height="400" />
+    <rect x="390" y="0" width="2" height="400" />
+    <rect x="400" y="0" width="2" height="400" />
+    <rect x="410" y="0" width="2" height="400" />
+    <rect x="420" y="0" width="2" height="400" />
+    <rect x="430" y="0" width="2" height="400" />
+    <rect x="440" y="0" width="2" height="400" />
+    <rect x="450" y="0" width="2" height="400" />
+    <rect x="460" y="0" width="2" height="400" />
+    <rect x="470" y="0" width="2" height="400" />
+    <rect x="480" y="0" width="2" height="400" />
+    <rect x="490" y="0" width="2" height="400" />
+    <rect x="500" y="0" width="2" height="400" />
+    <rect x="510" y="0" width="2" height="400" />
+    <rect x="520" y="0" width="2" height="400" />
+    <rect x="530" y="0" width="2" height="400" />
+    <rect x="540" y="0" width="2" height="400" />
+    <rect x="550" y="0" width="2" height="400" />
+    <rect x="560" y="0" width="2" height="400" />
+    <rect x="570" y="0" width="2" height="400" />
+    <rect x="580" y="0" width="2" height="400" />
+    <rect x="590" y="0" width="2" height="400" />
+  </clipPath>
+  <clipPath id="clip1">
+    <rect x="2" y="0" width="2" height="400" />
+    <rect x="12" y="0" width="2" height="400" />
+    <rect x="22" y="0" width="2" height="400" />
+    <rect x="32" y="0" width="2" height="400" />
+    <rect x="42" y="0" width="2" height="400" />
+    <rect x="52" y="0" width="2" height="400" />
+    <rect x="62" y="0" width="2" height="400" />
+    <rect x="72" y="0" width="2" height="400" />
+    <rect x="82" y="0" width="2" height="400" />
+    <rect x="92" y="0" width="2" height="400" />
+    <rect x="102" y="0" width="2" height="400" />
+    <rect x="112" y="0" width="2" height="400" />
+    <rect x="122" y="0" width="2" height="400" />
+    <rect x="132" y="0" width="2" height="400" />
+    <rect x="142" y="0" width="2" height="400" />
+    <rect x="152" y="0" width="2" height="400" />
+    <rect x="162" y="0" width="2" height="400" />
+    <rect x="172" y="0" width="2" height="400" />
+    <rect x="182" y="0" width="2" height="400" />
+    <rect x="192" y="0" width="2" height="400" />
+    <rect x="202" y="0" width="2" height="400" />
+    <rect x="212" y="0" width="2" height="400" />
+    <rect x="222" y="0" width="2" height="400" />
+    <rect x="232" y="0" width="2" height="400" />
+    <rect x="242" y="0" width="2" height="400" />
+    <rect x="252" y="0" width="2" height="400" />
+    <rect x="262" y="0" width="2" height="400" />
+    <rect x="272" y="0" width="2" height="400" />
+    <rect x="282" y="0" width="2" height="400" />
+    <rect x="292" y="0" width="2" height="400" />
+    <rect x="302" y="0" width="2" height="400" />
+    <rect x="312" y="0" width="2" height="400" />
+    <rect x="322" y="0" width="2" height="400" />
+    <rect x="332" y="0" width="2" height="400" />
+    <rect x="342" y="0" width="2" height="400" />
+    <rect x="352" y="0" width="2" height="400" />
+    <rect x="362" y="0" width="2" height="400" />
+    <rect x="372" y="0" width="2" height="400" />
+    <rect x="382" y="0" width="2" height="400" />
+    <rect x="392" y="0" width="2" height="400" />
+    <rect x="402" y="0" width="2" height="400" />
+    <rect x="412" y="0" width="2" height="400" />
+    <rect x="422" y="0" width="2" height="400" />
+    <rect x="432" y="0" width="2" height="400" />
+    <rect x="442" y="0" width="2" height="400" />
+    <rect x="452" y="0" width="2" height="400" />
+    <rect x="462" y="0" width="2" height="400" />
+    <rect x="472" y="0" width="2" height="400" />
+    <rect x="482" y="0" width="2" height="400" />
+    <rect x="492" y="0" width="2" height="400" />
+    <rect x="502" y="0" width="2" height="400" />
+    <rect x="512" y="0" width="2" height="400" />
+    <rect x="522" y="0" width="2" height="400" />
+    <rect x="532" y="0" width="2" height="400" />
+    <rect x="542" y="0" width="2" height="400" />
+    <rect x="552" y="0" width="2" height="400" />
+    <rect x="562" y="0" width="2" height="400" />
+    <rect x="572" y="0" width="2" height="400" />
+    <rect x="582" y="0" width="2" height="400" />
+    <rect x="592" y="0" width="2" height="400" />
+  </clipPath>
+  <clipPath id="clip2">
+    <rect x="4" y="0" width="2" height="400" />
+    <rect x="14" y="0" width="2" height="400" />
+    <rect x="24" y="0" width="2" height="400" />
+    <rect x="34" y="0" width="2" height="400" />
+    <rect x="44" y="0" width="2" height="400" />
+    <rect x="54" y="0" width="2" height="400" />
+    <rect x="64" y="0" width="2" height="400" />
+    <rect x="74" y="0" width="2" height="400" />
+    <rect x="84" y="0" width="2" height="400" />
+    <rect x="94" y="0" width="2" height="400" />
+    <rect x="104" y="0" width="2" height="400" />
+    <rect x="114" y="0" width="2" height="400" />
+    <rect x="124" y="0" width="2" height="400" />
+    <rect x="134" y="0" width="2" height="400" />
+    <rect x="144" y="0" width="2" height="400" />
+    <rect x="154" y="0" width="2" height="400" />
+    <rect x="164" y="0" width="2" height="400" />
+    <rect x="174" y="0" width="2" height="400" />
+    <rect x="184" y="0" width="2" height="400" />
+    <rect x="194" y="0" width="2" height="400" />
+    <rect x="204" y="0" width="2" height="400" />
+    <rect x="214" y="0" width="2" height="400" />
+    <rect x="224" y="0" width="2" height="400" />
+    <rect x="234" y="0" width="2" height="400" />
+    <rect x="244" y="0" width="2" height="400" />
+    <rect x="254" y="0" width="2" height="400" />
+    <rect x="264" y="0" width="2" height="400" />
+    <rect x="274" y="0" width="2" height="400" />
+    <rect x="284" y="0" width="2" height="400" />
+    <rect x="294" y="0" width="2" height="400" />
+    <rect x="304" y="0" width="2" height="400" />
+    <rect x="314" y="0" width="2" height="400" />
+    <rect x="324" y="0" width="2" height="400" />
+    <rect x="334" y="0" width="2" height="400" />
+    <rect x="344" y="0" width="2" height="400" />
+    <rect x="354" y="0" width="2" height="400" />
+    <rect x="364" y="0" width="2" height="400" />
+    <rect x="374" y="0" width="2" height="400" />
+    <rect x="384" y="0" width="2" height="400" />
+    <rect x="394" y="0" width="2" height="400" />
+    <rect x="404" y="0" width="2" height="400" />
+    <rect x="414" y="0" width="2" height="400" />
+    <rect x="424" y="0" width="2" height="400" />
+    <rect x="434" y="0" width="2" height="400" />
+    <rect x="444" y="0" width="2" height="400" />
+    <rect x="454" y="0" width="2" height="400" />
+    <rect x="464" y="0" width="2" height="400" />
+    <rect x="474" y="0" width="2" height="400" />
+    <rect x="484" y="0" width="2" height="400" />
+    <rect x="494" y="0" width="2" height="400" />
+    <rect x="504" y="0" width="2" height="400" />
+    <rect x="514" y="0" width="2" height="400" />
+    <rect x="524" y="0" width="2" height="400" />
+    <rect x="534" y="0" width="2" height="400" />
+    <rect x="544" y="0" width="2" height="400" />
+    <rect x="554" y="0" width="2" height="400" />
+    <rect x="564" y="0" width="2" height="400" />
+    <rect x="574" y="0" width="2" height="400" />
+    <rect x="584" y="0" width="2" height="400" />
+    <rect x="594" y="0" width="2" height="400" />
+  </clipPath>
+  <clipPath id="clip3">
+    <rect x="6" y="0" width="2" height="400" />
+    <rect x="16" y="0" width="2" height="400" />
+    <rect x="26" y="0" width="2" height="400" />
+    <rect x="36" y="0" width="2" height="400" />
+    <rect x="46" y="0" width="2" height="400" />
+    <rect x="56" y="0" width="2" height="400" />
+    <rect x="66" y="0" width="2" height="400" />
+    <rect x="76" y="0" width="2" height="400" />
+    <rect x="86" y="0" width="2" height="400" />
+    <rect x="96" y="0" width="2" height="400" />
+    <rect x="106" y="0" width="2" height="400" />
+    <rect x="116" y="0" width="2" height="400" />
+    <rect x="126" y="0" width="2" height="400" />
+    <rect x="136" y="0" width="2" height="400" />
+    <rect x="146" y="0" width="2" height="400" />
+    <rect x="156" y="0" width="2" height="400" />
+    <rect x="166" y="0" width="2" height="400" />
+    <rect x="176" y="0" width="2" height="400" />
+    <rect x="186" y="0" width="2" height="400" />
+    <rect x="196" y="0" width="2" height="400" />
+    <rect x="206" y="0" width="2" height="400" />
+    <rect x="216" y="0" width="2" height="400" />
+    <rect x="226" y="0" width="2" height="400" />
+    <rect x="236" y="0" width="2" height="400" />
+    <rect x="246" y="0" width="2" height="400" />
+    <rect x="256" y="0" width="2" height="400" />
+    <rect x="266" y="0" width="2" height="400" />
+    <rect x="276" y="0" width="2" height="400" />
+    <rect x="286" y="0" width="2" height="400" />
+    <rect x="296" y="0" width="2" height="400" />
+    <rect x="306" y="0" width="2" height="400" />
+    <rect x="316" y="0" width="2" height="400" />
+    <rect x="326" y="0" width="2" height="400" />
+    <rect x="336" y="0" width="2" height="400" />
+    <rect x="346" y="0" width="2" height="400" />
+    <rect x="356" y="0" width="2" height="400" />
+    <rect x="366" y="0" width="2" height="400" />
+    <rect x="376" y="0" width="2" height="400" />
+    <rect x="386" y="0" width="2" height="400" />
+    <rect x="396" y="0" width="2" height="400" />
+    <rect x="406" y="0" width="2" height="400" />
+    <rect x="416" y="0" width="2" height="400" />
+    <rect x="426" y="0" width="2" height="400" />
+    <rect x="436" y="0" width="2" height="400" />
+    <rect x="446" y="0" width="2" height="400" />
+    <rect x="456" y="0" width="2" height="400" />
+    <rect x="466" y="0" width="2" height="400" />
+    <rect x="476" y="0" width="2" height="400" />
+    <rect x="486" y="0" width="2" height="400" />
+    <rect x="496" y="0" width="2" height="400" />
+    <rect x="506" y="0" width="2" height="400" />
+    <rect x="516" y="0" width="2" height="400" />
+    <rect x="526" y="0" width="2" height="400" />
+    <rect x="536" y="0" width="2" height="400" />
+    <rect x="546" y="0" width="2" height="400" />
+    <rect x="556" y="0" width="2" height="400" />
+    <rect x="566" y="0" width="2" height="400" />
+    <rect x="576" y="0" width="2" height="400" />
+    <rect x="586" y="0" width="2" height="400" />
+    <rect x="596" y="0" width="2" height="400" />
+  </clipPath>
+  <clipPath id="clip4">
+    <rect x="8" y="0" width="2" height="400" />
+    <rect x="18" y="0" width="2" height="400" />
+    <rect x="28" y="0" width="2" height="400" />
+    <rect x="38" y="0" width="2" height="400" />
+    <rect x="48" y="0" width="2" height="400" />
+    <rect x="58" y="0" width="2" height="400" />
+    <rect x="68" y="0" width="2" height="400" />
+    <rect x="78" y="0" width="2" height="400" />
+    <rect x="88" y="0" width="2" height="400" />
+    <rect x="98" y="0" width="2" height="400" />
+    <rect x="108" y="0" width="2" height="400" />
+    <rect x="118" y="0" width="2" height="400" />
+    <rect x="128" y="0" width="2" height="400" />
+    <rect x="138" y="0" width="2" height="400" />
+    <rect x="148" y="0" width="2" height="400" />
+    <rect x="158" y="0" width="2" height="400" />
+    <rect x="168" y="0" width="2" height="400" />
+    <rect x="178" y="0" width="2" height="400" />
+    <rect x="188" y="0" width="2" height="400" />
+    <rect x="198" y="0" width="2" height="400" />
+    <rect x="208" y="0" width="2" height="400" />
+    <rect x="218" y="0" width="2" height="400" />
+    <rect x="228" y="0" width="2" height="400" />
+    <rect x="238" y="0" width="2" height="400" />
+    <rect x="248" y="0" width="2" height="400" />
+    <rect x="258" y="0" width="2" height="400" />
+    <rect x="268" y="0" width="2" height="400" />
+    <rect x="278" y="0" width="2" height="400" />
+    <rect x="288" y="0" width="2" height="400" />
+    <rect x="298" y="0" width="2" height="400" />
+    <rect x="308" y="0" width="2" height="400" />
+    <rect x="318" y="0" width="2" height="400" />
+    <rect x="328" y="0" width="2" height="400" />
+    <rect x="338" y="0" width="2" height="400" />
+    <rect x="348" y="0" width="2" height="400" />
+    <rect x="358" y="0" width="2" height="400" />
+    <rect x="368" y="0" width="2" height="400" />
+    <rect x="378" y="0" width="2" height="400" />
+    <rect x="388" y="0" width="2" height="400" />
+    <rect x="398" y="0" width="2" height="400" />
+    <rect x="408" y="0" width="2" height="400" />
+    <rect x="418" y="0" width="2" height="400" />
+    <rect x="428" y="0" width="2" height="400" />
+    <rect x="438" y="0" width="2" height="400" />
+    <rect x="448" y="0" width="2" height="400" />
+    <rect x="458" y="0" width="2" height="400" />
+    <rect x="468" y="0" width="2" height="400" />
+    <rect x="478" y="0" width="2" height="400" />
+    <rect x="488" y="0" width="2" height="400" />
+    <rect x="498" y="0" width="2" height="400" />
+    <rect x="508" y="0" width="2" height="400" />
+    <rect x="518" y="0" width="2" height="400" />
+    <rect x="528" y="0" width="2" height="400" />
+    <rect x="538" y="0" width="2" height="400" />
+    <rect x="548" y="0" width="2" height="400" />
+    <rect x="558" y="0" width="2" height="400" />
+    <rect x="568" y="0" width="2" height="400" />
+    <rect x="578" y="0" width="2" height="400" />
+    <rect x="588" y="0" width="2" height="400" />
+    <rect x="598" y="0" width="2" height="400" />
+  </clipPath>
+</defs>
+
+<g clip-path="url(#clip0)">
+  <g transform="translate(300, 200) scale(1.8) translate(-190, -200)">
+<g transform="translate(150, 190) rotate(-25)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(0)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(250, 200) rotate(3.061616997868383e-15)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(25.2441295442369)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+    <path d="M 145 185 C 115 175, 115 150, 105 140" fill="none" stroke="#9333ea" stroke-width="12" stroke-linecap="round" />
+    <ellipse cx="200" cy="195" rx="65" ry="32" fill="#9333ea" />
+    <polygon points="230,175 265,155 275,185 230,215" fill="#9333ea" />
+    <polygon points="265,140 270,120 280,135" fill="#9333ea" />
+    <circle cx="275" cy="150" r="22" fill="#9333ea" />
+    <ellipse cx="287" cy="158" rx="14" ry="10" transform="rotate(20 287 158)" fill="#9333ea" />
+    <polygon points="255,145 260,115 277,132" fill="#9333ea" />
+<g transform="translate(140, 195) rotate(25)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(-10.870732634300204)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(240, 205) rotate(0)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(0)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+  </g>
+</g>
+<g clip-path="url(#clip1)">
+  <g transform="translate(300, 200) scale(1.8) translate(-190, -200)">
+<g transform="translate(150, 188.0978869674097) rotate(-7.725424859373691)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(-23.23341425922218)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(250, 198.0978869674097) rotate(-23.776412907378838)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(0)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+    <path d="M 145 183.0978869674097 C 105.48943483704846 173.0978869674097, 104.63525491562422 148.0978869674097, 91.18033988749895 163.77641290737884" fill="none" stroke="#9333ea" stroke-width="12" stroke-linecap="round" />
+    <ellipse cx="200" cy="193.0978869674097" rx="65" ry="32" fill="#9333ea" />
+    <polygon points="230,173.0978869674097 265,153.0978869674097 275,183.0978869674097 230,213.0978869674097" fill="#9333ea" />
+    <polygon points="265,138.0978869674097 270,118.09788696740969 280,133.0978869674097" fill="#9333ea" />
+    <circle cx="275" cy="148.0978869674097" r="22" fill="#9333ea" />
+    <ellipse cx="287" cy="156.0978869674097" rx="14" ry="10" transform="rotate(20 287 156.0978869674097)" fill="#9333ea" />
+    <polygon points="255,143.0978869674097 260,113.09788696740969 277,130.0978869674097" fill="#9333ea" />
+<g transform="translate(140, 193.0978869674097) rotate(7.725424859373688)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(0)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(240, 203.0978869674097) rotate(23.776412907378838)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(7.614875825583846)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+  </g>
+</g>
+<g clip-path="url(#clip2)">
+  <g transform="translate(300, 200) scale(1.8) translate(-190, -200)">
+<g transform="translate(150, 188.82442949541505) rotate(20.225424859373682)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(-25.229772321205992)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(250, 198.82442949541505) rotate(-14.694631307311834)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(0)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+    <path d="M 145 183.82442949541505 C 109.12214747707527 173.82442949541505, 87.86474508437578 148.82442949541505, 68.81966011250105 154.69463130731182" fill="none" stroke="#9333ea" stroke-width="12" stroke-linecap="round" />
+    <ellipse cx="200" cy="193.82442949541505" rx="65" ry="32" fill="#9333ea" />
+    <polygon points="230,173.82442949541505 265,153.82442949541505 275,183.82442949541505 230,213.82442949541505" fill="#9333ea" />
+    <polygon points="265,138.82442949541505 270,118.82442949541505 280,133.82442949541505" fill="#9333ea" />
+    <circle cx="275" cy="148.82442949541505" r="22" fill="#9333ea" />
+    <ellipse cx="287" cy="156.82442949541505" rx="14" ry="10" transform="rotate(20 287 156.82442949541505)" fill="#9333ea" />
+    <polygon points="255,143.82442949541505 260,113.82442949541505 277,130.82442949541505" fill="#9333ea" />
+<g transform="translate(140, 193.82442949541505) rotate(-20.225424859373682)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(0)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(240, 203.82442949541505) rotate(14.69463130731183)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(29.95038162455763)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+  </g>
+</g>
+<g clip-path="url(#clip3)">
+  <g transform="translate(300, 200) scale(1.8) translate(-190, -200)">
+<g transform="translate(150, 191.17557050458495) rotate(20.22542485937369)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(0)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(250, 201.17557050458495) rotate(14.694631307311823)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(0)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+    <path d="M 145 186.17557050458495 C 120.87785252292473 176.17557050458495, 87.86474508437578 151.17557050458495, 68.81966011250105 125.30536869268818" fill="none" stroke="#9333ea" stroke-width="12" stroke-linecap="round" />
+    <ellipse cx="200" cy="196.17557050458495" rx="65" ry="32" fill="#9333ea" />
+    <polygon points="230,176.17557050458495 265,156.17557050458495 275,186.17557050458495 230,216.17557050458495" fill="#9333ea" />
+    <polygon points="265,141.17557050458495 270,121.17557050458495 280,136.17557050458495" fill="#9333ea" />
+    <circle cx="275" cy="151.17557050458495" r="22" fill="#9333ea" />
+    <ellipse cx="287" cy="159.17557050458495" rx="14" ry="10" transform="rotate(20 287 159.17557050458495)" fill="#9333ea" />
+    <polygon points="255,146.17557050458495 260,116.17557050458495 277,133.17557050458495" fill="#9333ea" />
+<g transform="translate(140, 196.17557050458495) rotate(-20.22542485937369)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(-7.6405574362955555)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(240, 206.17557050458495) rotate(-14.694631307311825)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(10.895477994423063)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+  </g>
+</g>
+<g clip-path="url(#clip4)">
+  <g transform="translate(300, 200) scale(1.8) translate(-190, -200)">
+<g transform="translate(150, 191.9021130325903) rotate(-7.7254248593736765)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(0)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(250, 201.9021130325903) rotate(23.77641290737884)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(23.216605900327636)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+    <path d="M 145 186.9021130325903 C 124.51056516295154 176.9021130325903, 104.6352549156242 151.9021130325903, 91.18033988749895 116.22358709262116" fill="none" stroke="#9333ea" stroke-width="12" stroke-linecap="round" />
+    <ellipse cx="200" cy="196.9021130325903" rx="65" ry="32" fill="#9333ea" />
+    <polygon points="230,176.9021130325903 265,156.9021130325903 275,186.9021130325903 230,216.9021130325903" fill="#9333ea" />
+    <polygon points="265,141.9021130325903 270,121.90211303259031 280,136.9021130325903" fill="#9333ea" />
+    <circle cx="275" cy="151.9021130325903" r="22" fill="#9333ea" />
+    <ellipse cx="287" cy="159.9021130325903" rx="14" ry="10" transform="rotate(20 287 159.9021130325903)" fill="#9333ea" />
+    <polygon points="255,146.9021130325903 260,116.90211303259031 277,133.9021130325903" fill="#9333ea" />
+<g transform="translate(140, 196.9021130325903) rotate(7.725424859373679)">
+  <ellipse cx="0" cy="20" rx="18" ry="35" fill="#9333ea"/>
+  <g transform="translate(-10, 45) rotate(-29.951896509832387)">
+    <rect x="-6" y="0" width="12" height="35" rx="6" fill="#9333ea"/>
+    <ellipse cx="2" cy="35" rx="12" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+<g transform="translate(240, 206.9021130325903) rotate(-23.77641290737884)">
+  <ellipse cx="0" cy="15" rx="10" ry="25" fill="#9333ea"/>
+  <g transform="translate(0, 35) rotate(0)">
+    <rect x="-5" y="0" width="10" height="30" rx="5" fill="#9333ea"/>
+    <ellipse cx="2" cy="30" rx="10" ry="6" fill="#9333ea"/>
+  </g>
+</g>
+  </g>
+</g>
+</svg>
