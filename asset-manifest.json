@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Schrodinger-Cat/static/css/main.52a39aa8.css",
+    "main.js": "/Schrodinger-Cat/static/js/main.6e00661b.js",
+    "static/js/453.cf097f86.chunk.js": "/Schrodinger-Cat/static/js/453.cf097f86.chunk.js",
+    "static/media/realistic-moire-cat.svg": "/Schrodinger-Cat/static/media/realistic-moire-cat.50b29efb0f141b4d8192.svg",
+    "index.html": "/Schrodinger-Cat/index.html",
+    "main.52a39aa8.css.map": "/Schrodinger-Cat/static/css/main.52a39aa8.css.map",
+    "main.6e00661b.js.map": "/Schrodinger-Cat/static/js/main.6e00661b.js.map",
+    "453.cf097f86.chunk.js.map": "/Schrodinger-Cat/static/js/453.cf097f86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52a39aa8.css",
+    "static/js/main.6e00661b.js"
+  ]
+}
